@@ -1,0 +1,1 @@
+node ./src/firebase-import-mongodb.js $*

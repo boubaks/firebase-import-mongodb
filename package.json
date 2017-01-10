@@ -1,0 +1,37 @@
+{
+  "name": "firebase-import-mongodb",
+  "version": "1.0.0",
+  "description": "You can export specific nodes on mongodb collections",
+  "main": "./src/firebase-import-mongodb.js",
+  "dependencies": {
+    "firebase": "^3.6.4",
+    "firebase-admin": "^4.0.4",
+    "mongodb": "^2.2.19",
+    "node-getopt": "^0.2.3",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boubaks/firebase-import-mongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "firebase",
+    "export",
+    "import"
+  ],
+  "author": "boubaks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boubaks/firebase-import-mongodb/issues"
+  },
+  "bin": {
+    "firebase-import-mongodb": "./src/firebase-import-mongodb.js"
+  },
+  "preferGlobal": "true",
+  "homepage": "https://github.com/boubaks/firebase-import-mongodb#readme"
+}
